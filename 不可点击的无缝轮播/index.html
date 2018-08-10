@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+        .window{
+            width:500px;
+            height:300px;
+            margin:0 auto;
+            overflow: hidden;
+
+        }
+        .imagesWrapper{
+            position: relative;
+        }
+        img{
+            position:absolute;
+            width:100%;
+            transition: 1s;
+            top:0;
+        }
+        .current{
+            left: 0;
+            transform:translateX(0);
+            z-index: 1;
+        }
+        .enter{
+            transform:translateX(100%);
+            z-index:-100;
+        }
+        .leave{
+            transform:translateX(-100%);
+            z-index: 1;
+        }
+
+        .buttons{
+            /*position:absolute;*/
+            bottom:0;
+            left:0;
+        }
+        .red{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<div class="window">
+    <div class="imagesWrapper">
+        <img src="images/1.jpg" alt="" width="500">
+        <img src="images/2.jpg" alt="" width="500">
+        <img src="images/3.jpg" alt="" width="500">
+        <img src="images/4.jpg" alt="" width="500">
+        <img src="images/5.jpg" alt="" width="500">
+    </div>
+
+</div>
+
+
+<script src="js/main.js"></script>
+</body>
+</html>

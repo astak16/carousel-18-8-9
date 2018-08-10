@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6d5b7af-edcc-46e8-af6b-410b8108278a" name="Default" comment="" />
+    <list default="true" id="a6d5b7af-edcc-46e8-af6b-410b8108278a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/carousel-18-8-9" afterPath="$PROJECT_DIR$/carousel-18-8-9" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -43,7 +45,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="350" />
     <option name="y" value="192" />
     <option name="width" value="1202" />
@@ -114,15 +116,15 @@
       <workItem from="1533820876845" duration="1194000" />
       <workItem from="1533875785686" duration="10779000" />
       <workItem from="1533900392124" duration="8338000" />
-      <workItem from="1533910624458" duration="1762000" />
+      <workItem from="1533910624458" duration="1906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42312000" />
+    <option name="totallyTimeSpent" value="42456000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="350" y="192" width="1920" height="1026" extended-state="7" />
+    <frame x="350" y="192" width="1920" height="1026" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12291667" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" x="842" y="255" width="516" height="542" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
